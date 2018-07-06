@@ -1,0 +1,22 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Offline OpenFL PWA Test",
+    "scope": "/OpenFL-PWA/",
+    "display": "fullscreen",
+    "start_url": "https://miltoncandelero.github.io/OpenFL-PWA/",
+    "short_name": "OpenflPWA",
+    "theme_color": "transparent",
+    "description": "Testing on how to make an offline game with openFL and the power of PWA",
+    "orientation": "portrait",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/favicon.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ]
+}
