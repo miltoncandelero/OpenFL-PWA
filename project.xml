@@ -8,18 +8,19 @@
 	<!-- output -->
 	<app main="Main" file="OfflinePWA" path="bin" />
 	
-	<window background="#333333" fps="60" />
+	<window background="#9bbc0f" fps="60" />
 	<window width="720" height="1280" unless="mobile" />
 	<window orientation="landscape" vsync="false" antialiasing="0" if="cpp" />
 	
 	<!-- classpath, haxe libs -->
 	<source path="src" />
 	<haxelib name="openfl" />
+	<haxelib name="spritesheet" />
 	
 	<!-- assets -->
 	<assets path="assets/img" rename="img" />
+	<assets path="assets/snd" rename="snd" />
 	
-	<!-- optimize output
-	<haxeflag name="-dce full" /> -->
+	<haxeflag name="-dce full" />
 	
 </project>
