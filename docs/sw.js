@@ -3,22 +3,22 @@
 var CACHE = '0.1';
 var precacheFiles = [
 		//add all your files
-		'.\favicon.png',
-		'.\generationInfo.json',
-		'.\index.html',
-		'.\manifest.json',
-		'.\OfflinePWA.js',
-		'.\register.js',
-		'.\sw.js',
-		'.\img\floor.png',
-		'.\img\gameboy.png',
-		'.\img\green.png',
-		'.\lib\FileSaver.min.js',
-		'.\lib\howler.min.js',
-		'.\lib\manup.min.js',
-		'.\lib\pako.min.js',
-		'.\manifest\default.json',
-		'.\snd\receptors.mp3'
+		'./favicon.png',
+		'./generationInfo.json',
+		'./index.html',
+		'./manifest.json',
+		'./OfflinePWA.js',
+		'./register.js',
+		'./sw.js',
+		'./img/floor.png',
+		'./img/gameboy.png',
+		'./img/green.png',
+		'./lib/FileSaver.min.js',
+		'./lib/howler.min.js',
+		'./lib/manup.min.js',
+		'./lib/pako.min.js',
+		'./manifest/default.json',
+		'./snd/receptors.mp3'
     ];
 
 //Install stage sets up the cache-array to configure pre-cache content
